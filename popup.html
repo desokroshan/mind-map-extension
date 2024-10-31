@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Article Mind Mapper</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #mindmap {
+      margin-top: 10px;
+      width: 100%;
+      min-height: 200px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <button id="generateMap">Generate Mind Map</button>
+  <div id="mindmap"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.11.0/mermaid.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
